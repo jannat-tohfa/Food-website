@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+/* ========header part start==================== */
+header{
+    background: #c70f4e;
+    height: 180px;
+}
+.btn button{
+    border: 1px solid white;
+    background: #c70f4e;
+    
+    font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     font-weight: 200;
+     margin-top: 19px;
+     
+}
+.btn button a{
+    color: white;
+}
+.menu-btn{
+    padding: 8px 25px;
+}
+.event-btn{
+    padding: 8px 20px;
+    margin-left: 18px;
+}
+.btn{
+    display: block;
+}
+.media-btn{
+    padding: 8px 20px;
+   margin-right: 151px;
+}
+.right-part .media-btn{
+    margin-left: 212px;
+}
+.btn button:hover{
+    background: #ff0054;
+}
+/* ===================banner part start===================== */
+.banner-part{
+    background-image: url(../images/headerbg.png);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom top;
+    background-size: cover;
+   
+}
+
+.banner-text{
+    color: white;
+    margin-top: 330px;
+    background-color: rgba(0, 0, 0,0.2);
+    border: rgba(0, 0, 0,0.2);
+    font-family: 'Raleway', sans-serif;
+}
+.banner-btn{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0,0.3);
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 35px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 138px;
+    margin-left: 211px;
+}
+.banner-btn a{
+    color: white;
+}
+
+/* ======================banner part end================= */
+/* ==============menu part start=========== */
+.menu-part{
+    background-image: url(../images/item-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    margin-top: -150px;
+}
+.menu-part h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top:  180px;
+}
+.menu-part h6{
+    text-align: center;
+    color: #e60e58;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+
+}
+.twist{
+    height: 200px;
+    border: 1px solid #c70f4e;
+    background: white;
+    margin-top: 30px;
+   
+}
+.menu-part span{
+    color: #4f4f4f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.t-head{
+    font-weight: 200;
+}
+.menu-part p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #4f4f4f;
+    width: 337px;
+    font-weight: 300;
+}
+.twist:hover{
+ box-shadow: -1px 5px 31px 1px rgba(230,14,88,0.75);
+ -webkit-box-shadow: -1px 5px 31px 1px rgba(230,14,88,0.75);
+ -moz-box-shadow: -1px 5px 31px 1px rgba(230,14,88,0.75);
+}
+.pub h5{
+    margin-top: 30px;
+    color: #e60e58;
+    font-family: 'Raleway', sans-serif;
+}
+.pub-div{
+    height: 200px;
+    border: 1px solid #c70f4e;
+    background: white;
+    margin-top: 30px; 
+}
+.pub-div:hover{
+    box-shadow: -1px 5px 31px 1px rgba(230,14,88,0.75);
+    -webkit-box-shadow: -1px 5px 31px 1px rgba(230,14,88,0.75);
+    -moz-box-shadow: -1px 5px 31px 1px rgba(230,14,88,0.75);
+}
+/* ===============menu part end================ */
+/* ================drinks part start==================== */
+.drinks{
+    background-image: url(../images/cooctails.png);
+    min-height: 2316px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom top;
+    background-size: cover;
+   
+   
+}
+.drinks .overlay{
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 2216px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+.drink-div{
+    height: 180px;
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+    color: #ffffff;
+    margin-bottom: 40px
+   }
+.drinks h2{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+    padding-top: 60px;
+    padding-bottom: 15px;
+
+}
+.drinks h3{
+    color: #f10959;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+.drink-div p{
+    padding: 20px 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.drink-div h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/* =============drinks part end================= */
+/* =============slidepart start======== */
+.slide{
+    background-image: url(../images/slidebg.png);
+    background-repeat: no-repeat;
+    background-position: bottom top;
+    background-size: cover;
+    min-height: 1600px;
+    margin-top: -241px;
+}
+
+
+.carousel-item img{
+   margin-top: 100px;
+   padding: 0 200px;
+}
+/* ============slidepart end=========== */
+/* ============booking part start=============== */
+.booking{
+   margin-bottom: 100px;
+}
+.mix-photos {
+    position: relative;
+}
+.mix-photos img{
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.div2{
+    position: absolute;
+    z-index: 2;
+    top: 137px;
+    left: 119px;
+}
+.div3{
+    position: absolute;
+    z-index: 3;
+    top: 421px;
+    left: 339px;
+}
+.div4{
+    position: absolute;
+    z-index: 4;
+    top: 328px;
+    left: 170px;
+}
+.div5{
+    position: absolute;
+    z-index: 5;
+    top: 177px;
+    left: 262px;
+}
+.book-title{
+    margin-left: 50px;
+    margin-top: 204px;
+}
+.booking p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.book-btn{
+    border: 3px solid #ff0054;
+    border-radius: 40px;
+    background: white;
+    padding: 7px 40px;
+    margin-left: 50px;
+    
+}
+.book-btn:hover{
+    box-shadow: 2px 6px 18px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 6px 18px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 6px 18px -4px rgba(0,0,0,0.75);
+}
+/* ==================booking part end============ */
+/* ==============footer part start=============== */
+footer{
+    background-image: url(../images/footerbg.png);
+    background-repeat: no-repeat;
+    background-position: bottom top;
+    background-size: cover;
+    min-height: 500px;
+}
+.left-op ul li{
+ display: inline-block;
+ margin: 8px 30px;
+ 
+}
+.left-op ul{
+    text-align: center;
+    
+}
+.left-op ul li a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.right-op ul li{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: #1f1f1f;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin: -47px 5px;
+   }
+ .right-op ul{
+     text-align: right;
+ }
+ .right-op ul li a{
+     color: white;
+ }
+
+
+
+
+
+ .privacy{
+  text-align: right;
+  color: white;
+margin: -27px;
+margin-right: 5px;
+ }
+ .jeffrey{
+     color: white;
+ }
+ hr{
+     color: white;
+    
+ }
+ hr:not([size]) {
+    height: 3px;
+}
+ .footer{
+     padding-top: 330px ;
+ }
+/* ===================footer part end================ */
